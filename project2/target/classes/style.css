@@ -1,0 +1,41 @@
+.back{
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+}
+.back:hover{
+    -fx-background-color: #0D47A1;
+}
+
+.default{
+    -fx-background-color: rgba(45, 106, 214, 0.61);
+    -fx-padding: 10 10 10 10;
+}
+.default:hover{
+    -fx-background-color: #2c72ed;
+    -fx-padding: 10 10 10 10;
+}
+
+.default:pressed{
+    -fx-background-color: linear-gradient(rgba(45, 106, 214, 0.61), #0095ff);
+    -fx-padding: 10 10 10 10;
+}
+
+.windows7-default {
+    -fx-background-color:
+            #3c7fb1,
+            linear-gradient(#fafdfe, #e8f5fc),
+            linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.toggle:selected{
+    -fx-background-color: #00d326;
+    -fx-padding: 0px;
+}
+.toggle{
+    -fx-background-color: #173773;
+}
